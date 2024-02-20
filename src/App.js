@@ -1,11 +1,29 @@
 import React from "react";
-import Article from "./components/article/article.jsx";
+import { Article, Navbar, Brand, CTA } from "./components";
+import {
+  Footer,
+  Header,
+  Possibilty,
+  Feature,
+  WhatGPT3,
+  Blog,
+} from "./containers";
+import Features from "./containers/features/Features";
 
 function App() {
   return (
-    <div>
-      <App />
-      <Article />
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibilty />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 }
