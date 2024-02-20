@@ -2,7 +2,7 @@ import React from "react";
 import "./cta.css";
 
 const CTA = () => {
-  return <div>cta</div>;
+  return <div>CTA</div>;
 };
 
 export default CTA;
